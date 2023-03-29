@@ -7,12 +7,12 @@ import Navbar from '../../components/Navbar/Navbar.jsx';
 const Hero = () => {
   const background = images.photo
   return (
-    <div className='hero' style={{backgroundImage: `url(${background})`,
-                                  backgroundRepeat: 'no-repeat',
-                                  backgroundSize: 'cover',  
-                                  width: '1920px',
-                                  height: '100vh'                 
-                                }}>
+      <div className='hero' style={{backgroundImage: `url(${background})`,
+                                    backgroundRepeat: 'no-repeat',
+                                    backgroundSize: 'cover',  
+                                    width: '1920px',
+                                    height: '100vh'                 
+                                  }}>
       <Navbar />
       <div className='hero_content'>
         <p className='sub_text'>Logistics & Supply Chain Solutions</p>  

@@ -30,6 +30,14 @@ import callIcon from '../assets/Icon_call.png';
 import EmailIcon from '../assets/Icon_email.png';
 import TimeIcon from '../assets/Icon_time.png';
 import btnBkg from '../assets/btn_bkg.png';
+import ship from '../assets/shipIcon.png';
+import truck from '../assets/truckIcon.png';
+import plane from '../assets/planeIcon.png';
+import warehouse from '../assets/warehouseIcon.png';
+import cash from '../assets/cashIcon.png';
+import box from '../assets/boxIcon.png';
+import airplane from '../assets/aiplaneImg.png';
+import counter from '../assets/Counter.png';
 
 const images = {
     quote,
@@ -63,6 +71,14 @@ const images = {
     callIcon,
     EmailIcon,
     TimeIcon,
-    btnBkg
+    btnBkg,
+    ship,
+    truck,
+    plane,
+    warehouse,
+    cash,
+    box,
+    airplane,
+    counter
 }
 export default images;
