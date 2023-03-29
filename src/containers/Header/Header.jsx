@@ -7,10 +7,12 @@ import AddressBar from '../../components/AddressBar/AddressBar.jsx';
 const Header = () => {
   return (
     <div className='header'>
-      <div className='logo'>
-        <img src={images.Logo} alt="Logo" />
+      <div className='header_obj'>
+        <div className='logo'>
+          <img src={images.Logo} alt="Logo" />
+        </div>
+        <AddressBar />
       </div>
-      <AddressBar />
     </div>
     
 

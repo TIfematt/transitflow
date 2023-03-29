@@ -1,0 +1,45 @@
+.address_bar {
+    display: flex;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    gap: 39px;
+
+    width: 745px;
+    height: 68px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.address_bar div p {
+    color: white;
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 135.02%;
+    display: flex;
+    flex-direction: column;
+}
+.address_bar div img {
+    /* box-sizing: border-box; */
+    /* background: #111C55; */
+    /* border: 1px solid #273270; */
+    width: 63px;
+    height: 63px;
+}
+.time, .email, .call {
+    display: flex;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    gap: 17px;
+}
