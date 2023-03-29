@@ -38,6 +38,10 @@ import cash from '../assets/cashIcon.png';
 import box from '../assets/boxIcon.png';
 import airplane from '../assets/aiplaneImg.png';
 import counter from '../assets/Counter.png';
+import pbtn from '../assets/pBtnBackground.png';
+import lefrArrow from '../assets/leftArrow.png';
+import rightArrow from '../assets/rightArrow.png';
+import user from '../assets/User.png';
 
 const images = {
     quote,
@@ -79,6 +83,10 @@ const images = {
     cash,
     box,
     airplane,
-    counter
+    counter,
+    pbtn,
+    lefrArrow,
+    rightArrow,
+    user
 }
 export default images;

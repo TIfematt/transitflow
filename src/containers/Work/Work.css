@@ -196,3 +196,58 @@
     left: 10%;
 
 }
+
+/* styling project */
+.project {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 1700px;
+
+}
+.project h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.project_cards{
+    display: flex;
+    gap: 260px;
+}
+.project_btn_box {
+    position: absolute;
+    width: 100vw;
+    height: 400px;
+    left: -350px;
+    top: 2000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(95deg, #FFB629 -1.19%, #FFDA56 57.78%, #FFD7A6 115.08%);
+}
+
+.project_btn_box .project_btn {
+    width: 200px;
+    height: 50px;
+    background: #FFFFFF;
+    border: none;
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #1C1F35;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    cursor: pointer;
+    position: relative;
+    top: 75px;
+
+}

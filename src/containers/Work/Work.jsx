@@ -16,6 +16,68 @@ const Work = () => {
       </div>
     )
   }
+
+  // Project card
+  const projectCard = (props) => {
+    return (
+      <div className='project_card' style={{
+          backgroundImage: `url(${props.img})`,
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover',
+          // position: 'absolute',
+          // left: '0px',
+          display: 'flex',
+          // gap: '20px',
+          width: '30%',
+          height: '407.91px',
+          marginLeft: '-220px',
+      }}>
+        <div style={{
+              background: 'linear-gradient(0deg, #091242 14.34%, rgba(60, 60, 60, 0) 43.86%)',
+              backgroundBlendMode: 'multiply',
+              // position: 'absolute',
+              marginTop: '210px',
+              top: '300px',
+              height: '200px',
+              width: '300px',
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'flex-end',
+              alignItems: 'flex-start',
+              paddingLeft: '20px',
+          }}
+        >
+          <h3 style={{
+            color: 'white',
+            fontFamily: 'Rubik',
+            fontsize: '12px',
+            lineHeight: '24px',
+            fontWeight: '500',
+            fontStyle: 'normal',
+
+          }}
+          >
+            {props.title}
+         </h3>
+          <p style={{
+            color: '#FFB629',
+            fontFamily: 'Krub',
+            fontsize: '16px',
+            lineHeight: '24px',
+            fontWeight: '500',
+            fontStyle: 'normal',
+            marginTop: '-10px',
+
+          }}
+          >
+            {props.description}
+          </p>
+        </div>
+        
+      </div>
+    )
+  }
+
   return (
     <div className='work'>
         <div className='title'>
@@ -48,16 +110,17 @@ const Work = () => {
             })}
           </div>
         </div>
-        <div style={{backgroundImage: `url(${images.photo_1})`,
-                      backgroundRepeat: 'no-repeat',
-                      backgroundSize: 'cover',  
-                      width: '1919px',
-                      height: '504px',
-                      position: 'absolute',
-                      top: '400px',
-                      left: '-390px',
-
-                    }}>
+        <div style={{
+          backgroundImage: `url(${images.photo_1})`,
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover',  
+          width: '1919px',
+          height: '504px',
+          position: 'absolute',
+          top: '400px',
+          left: '-390px',
+          }}
+        >
 
         </div>
         <div className='why_us'>
@@ -88,7 +151,55 @@ const Work = () => {
             <img src={images.counter} alt='counter' />
           </div>
         </div>
+        <div className='project_btn_box'>
+            <button className='project_btn' style={{
+              backgroundImage: `url(${images.pbtn})`,
+              backgroundRepeat: 'no-repeat',
+              backgroundSize: 'cover',
+              color: 'white',
+            }}
+            >
+              More Work
+            </button>
+        </div>
+              {/* Project section */}
+              <div className='project'>
+          <h1>Transporting Across The World</h1>
+          <div className='project_cards'>
+            {projectCard(
+              {img: images.photo_4, 
+                title: 'Liquid Transportation', 
+                description: 'Premium Tankers'
+              }
+            )}
+            {projectCard(
+              {img: images.photo_5, 
+                title: 'Packaging Solutions', 
+                description: 'Warehouse Management'
+              }
+            )}
+            {projectCard(
+              {img: images.photo_6, 
+                title: 'Contract Logistics', 
+                description: 'Road Transportation'
+              }
+            )}
+            {projectCard(
+              {img: images.photo_7, 
+                title: 'Warehouse & Distribution', 
+                description: 'Large Warehouse'
+              }
+            )}
+            {projectCard(
+              {img: images.photo_8, 
+                title: 'Specialized Transport', 
+                description: 'Ocean Transports'
+              }
+            )}
+          </div>
+        </div>
     </div>
+
   )
 }
 
