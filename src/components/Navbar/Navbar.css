@@ -1,0 +1,104 @@
+/* .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    height: 4rem;
+    background-color: #fff;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+} */
+
+.navbar {
+    display: flex;
+    position: absolute;
+    width: 1920px;
+    height: 78px;
+    left: 0px;
+    top: 160px;
+    /* make the background transparent */
+    background: rgba(9, 18, 66, 0.25);
+
+}
+.nav_link {
+    display: flex;
+    gap: 60px;
+    position: relative;
+    width: 504px;
+    height: 48px;
+    left: 320px;;
+    top: 12px;
+}
+.nav_link li {
+    list-style: none;
+    /* border-right: 1px solid rgba(255, 255, 255, 0.2); */
+}
+.nav_link li:last-child {
+    border-right: none;
+}
+.nav_link li a {
+    text-decoration: none;
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 135.02%;
+    /* identical to box height, or 22px */
+    color: #FFFFFF;
+}
+.nav_social {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px;
+    position: relative;
+    gap: 24px;
+    top: 32px;
+    width: 150.99px;
+    height: 19.42px;
+    left: 600px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.nav_social a {
+    text-decoration: none;
+    color: white;
+}
+.nav_btn {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 28px 52px;
+    gap: 10px;
+    border: none;
+    width: 216px;
+    height: 78px;
+    position: relative;
+    left: 650px;
+
+
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 135.02%;
+    /* identical to box height, or 22px */
+
+    text-align: center;
+
+    color: #23212A;
+    background: #FFFFFF;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}

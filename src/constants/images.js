@@ -29,6 +29,7 @@ import photo_13 from '../assets/Photo_13.png';
 import callIcon from '../assets/Icon_call.png';
 import EmailIcon from '../assets/Icon_email.png';
 import TimeIcon from '../assets/Icon_time.png';
+import btnBkg from '../assets/btn_bkg.png';
 
 const images = {
     quote,
@@ -61,6 +62,7 @@ const images = {
     photo_13,
     callIcon,
     EmailIcon,
-    TimeIcon
+    TimeIcon,
+    btnBkg
 }
 export default images;

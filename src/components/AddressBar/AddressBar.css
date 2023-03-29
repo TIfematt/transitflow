@@ -30,9 +30,6 @@
     flex-direction: column;
 }
 .address_bar div img {
-    /* box-sizing: border-box; */
-    /* background: #111C55; */
-    /* border: 1px solid #273270; */
     width: 63px;
     height: 63px;
 }
