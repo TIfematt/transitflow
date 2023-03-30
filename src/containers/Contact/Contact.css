@@ -1,0 +1,126 @@
+.contact {
+    position: absolute;
+    /* width: 1936px;
+    height: 100%; */
+    left: 0px;
+    top: 5850px;
+    background: #091242;
+    padding: 116px 350px;
+}
+.contact-content {
+    display: flex;
+    gap: 100px;
+}
+.contact-content-text > p, h1 {
+    color: white;
+}
+.contact-content-text p:first-child {
+    width: 71px;
+    height: 23px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* make background transparent */
+    background: rgba(232, 232, 232, 0.5);
+    border-left: 3px solid yellow;
+    padding-left: 9px;
+    padding-top: 10px;
+}
+.contact-content-text h1 {
+    width: 350px;
+    height: 41px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 41px;
+}
+.contact-content-text .cText {
+    width: 350px;
+    height: 72px;
+
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 151.52%;
+}
+
+
+.contact-images {
+    margin-top: 50px;
+}
+
+.contact-form {
+    margin-top: 80px;
+}
+.contact-form-input {
+    display: flex;
+    gap: 25px;
+}
+.contact-form-input input {
+    width: 365px;
+    height: 60px;
+    border: 1px solid #4E5683;
+    box-sizing: border-box;
+    padding-left: 30px;
+    background: none;
+}
+.contact-form-input input[type="text"] {
+    margin-bottom: 20px;
+}
+.contact-form-input input::placeholder {
+    color: white;
+}
+.contact-form-input input:focus{
+    color: white;
+}
+.contact-form-textarea textarea {
+    width: 750px;
+    height: 154px;
+    border: 1px solid #4E5683;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-top: 10px;
+    color: white;
+    /* make background transparent */
+    background: none;
+}
+.contact-form-textarea textarea::placeholder {
+    color: white;
+    font-family: 'rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+.contact-form-textarea textarea:focus {
+    color: white;
+    font-family: 'rubik';
+}
+.contact-form-button {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+
+}
+.contact-form-button button {
+    padding: 19px 34px;
+    gap: 10px;
+    font-family: 'Krub';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 135.02%;
+    color: #23212A;
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+}

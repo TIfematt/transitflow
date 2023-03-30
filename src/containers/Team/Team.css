@@ -1,0 +1,57 @@
+ .team {
+    position: absolute;
+    width: 1200px;
+    height: 658px;
+    left: 360px;
+    top: 5100px;
+}
+.team-images {
+    display: flex;
+    gap: 50px;
+}
+.team_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.team_content p {
+    width: 127px;
+    height: 23px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* make background transparent */
+    background: rgba(232, 232, 232, 0.5);
+    border-left: 3px solid yellow;
+    padding-left: 9px;
+    padding-top: 10px;
+}
+.team_content h1 {
+    width: 307px;
+    height: 41px;
+    margin-top: 0;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 41px;
+    text-align: center;
+
+    color: #1C1F35;
+}
+.icons {
+    margin-top: 20px;
+    color: #1C1F35;
+}
+.team_social {
+    display: flex;
+    gap: 30px;
+    margin-left: 20px;
+}
+.smith {
+    gap: 20px;
+}
