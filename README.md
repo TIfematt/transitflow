@@ -50,7 +50,7 @@ Add a file structure here with the basic details about files, below is an exampl
 | 1  | index | Entry point
 | 2  | App | Root 
 
-| No | File Name | Details 
+| No | Folder Name | Details 
 |----|------------|-------|
 | 1  | components | Reusable Components
 | 1  | Containers | Multiple Components making up a section/page
