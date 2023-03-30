@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+# Introduction
+- TransitFlow is a logistics company: Project was given by NUPAT technologies
+- 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Index
 
-## Available Scripts
+- [About](#about)
+  - [Installation](#installation)
+- [Development](#development)
+  - [Pre-Requisites](#pre-requisites)
+  - [File Structure](#file-structure)
+  - [Build](#build)  
+  - [Deployment](#deployment)  
+  - [Branches](#branches)
+- [Credit/Acknowledgment](#creditacknowledgment)
+- [License](#license)
 
-In the project directory, you can run:
+## About
+The current version of the webapp is only supported on Desktop screen size
+Mobile view port will displace elements and show certain inconsistencies: 
+Don't View on Mobile --- lol
 
-### `npm start`
+### Installation
+- This project was created with React, hence the installation of this project will 
+- warrant installing the dependencies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+$ npx create-react-app <app_name>
+$ npm install
+```
 
-### `npm test`
+## Development
+Please contact me before issueing a request
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Pre-Requisites
+Dependencies Used
+- A React-icons
+- B React-router
+- C (version 2.0 would inclue Framer-motion)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### File Structure
+Add a file structure here with the basic details about files, below is an example.
 
-### `npm run eject`
+| No | File Name | Details 
+|----|------------|-------|
+| 1  | index | Entry point
+| 2  | App | Root 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+| No | File Name | Details 
+|----|------------|-------|
+| 1  | components | Reusable Components
+| 1  | Containers | Multiple Components making up a section/page
+| 1  | Constants | Assets Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Contribution
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+ Your contributions are always welcome and appreciated. Following are the things you can do to contribute to this project.
 
-## Learn More
+ 1. **Report a bug** <br>
+ If you think you have encountered a bug, and I should know about it, feel free to report it [here]() and I will take care of it.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ 2. **Request a feature** <br>
+ You can also request for a feature [here](), and if it will viable, it will be picked for development.  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+ 3. **Create a pull request** <br>
+ It can't get better then this, your pull request will be appreciated by the community. You can get started by picking up any open issues from [here]() and make a pull request.
 
-### Code Splitting
+ > If you are new to open-source, make sure to check read more about it [here](https://www.digitalocean.com/community/tutorial_series/an-introduction-to-open-source) and learn more about creating a pull request [here](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+### Branches
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+ I use an agile continuous integration methodology, so the version is frequently updated and development is really fast.
 
-### Making a Progressive Web App
+1. **`stage`** is the development branch.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+2. **`master`** is the production branch.
 
-### Advanced Configuration
+3. No other permanent branches should be created in the main repository, you can create feature branches but they should get merged with the master.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**Steps to work with feature branch**
 
-### Deployment
+1. To start working on a new feature, create a new branch prefixed with `feat` and followed by feature name. (ie. `feat-FEATURE-NAME`)
+2. Once you are done with your changes, you can raise PR.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+**Steps to create a pull request**
 
-### `npm run build` fails to minify
+1. Make a PR to `stage` branch.
+2. Comply with the best practices and guidelines e.g. where the PR concerns visual elements it should have an image showing the effect.
+3. It must pass all continuous integration checks and get positive reviews.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+After this, changes will be merged.
+
+
+## Credit/Acknowledgment
+@NUPAT Technologies
+Boluwatife Oladejo 
+
+##  License
+None yet

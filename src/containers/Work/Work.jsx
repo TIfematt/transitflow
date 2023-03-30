@@ -27,11 +27,14 @@ const Work = () => {
           // position: 'absolute',
           // left: '0px',
           display: 'flex',
+          flexWrap: 'wrap',
+          flexShrink: '3',
           // gap: '20px',
-          width: '30%',
+          width: '300px',
           height: '407.91px',
           marginLeft: '-220px',
-      }}>
+        }}
+        >
         <div style={{
               background: 'linear-gradient(0deg, #091242 14.34%, rgba(60, 60, 60, 0) 43.86%)',
               backgroundBlendMode: 'multiply',
@@ -76,7 +79,7 @@ const Work = () => {
         
       </div>
     )
-  }
+  } 
 
   return (
     <div className='work'>
@@ -163,40 +166,40 @@ const Work = () => {
             </button>
         </div>
               {/* Project section */}
-              <div className='project'>
-          <h1>Transporting Across The World</h1>
-          <div className='project_cards'>
-            {projectCard(
-              {img: images.photo_4, 
-                title: 'Liquid Transportation', 
-                description: 'Premium Tankers'
-              }
-            )}
-            {projectCard(
-              {img: images.photo_5, 
-                title: 'Packaging Solutions', 
-                description: 'Warehouse Management'
-              }
-            )}
-            {projectCard(
-              {img: images.photo_6, 
-                title: 'Contract Logistics', 
-                description: 'Road Transportation'
-              }
-            )}
-            {projectCard(
-              {img: images.photo_7, 
-                title: 'Warehouse & Distribution', 
-                description: 'Large Warehouse'
-              }
-            )}
-            {projectCard(
-              {img: images.photo_8, 
-                title: 'Specialized Transport', 
-                description: 'Ocean Transports'
-              }
-            )}
-          </div>
+        <div className='project'>
+              <h1>Transporting Across The World</h1>
+              <div className='project_cards'>
+                {projectCard(
+                  {img: images.photo_4, 
+                    title: 'Liquid Transportation', 
+                    description: 'Premium Tankers'
+                  }
+                )}
+                {projectCard(
+                  {img: images.photo_5, 
+                    title: 'Packaging Solutions', 
+                    description: 'Warehouse Management'
+                  }
+                )}
+                {projectCard(
+                  {img: images.photo_6, 
+                    title: 'Contract Logistics', 
+                    description: 'Road Transportation'
+                  }
+                )}
+                {projectCard(
+                  {img: images.photo_7, 
+                    title: 'Warehouse & Distribution', 
+                    description: 'Large Warehouse'
+                  }
+                )}
+                {projectCard(
+                  {img: images.photo_8, 
+                    title: 'Specialized Transport', 
+                    description: 'Ocean Transports'
+                  }
+                )}
+              </div>
         </div>
     </div>
 

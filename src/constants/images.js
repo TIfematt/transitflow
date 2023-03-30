@@ -48,6 +48,7 @@ import cSocial from '../assets/contactSocial.png';
 import ClientLogo from '../assets/ClientLogo.png';
 import BlogContent from '../assets/BlogContent.png';
 import FooterImage from '../assets/FooterImage.png';
+import Address from '../assets/Address.png'
 
 const images = {
     quote,
@@ -99,6 +100,7 @@ const images = {
     cSocial,
     ClientLogo,
     BlogContent,
-    FooterImage
+    FooterImage,
+    Address
 }
 export default images;

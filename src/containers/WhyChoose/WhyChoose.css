@@ -1,8 +1,11 @@
 .Whychoose {
     position: absolute;
-    width: 1936px;
+    width: 100%;
     height: 897px;
     left: 0px;
     top: 4150px;
 
+}
+.Whychoose img {
+    max-width: 100%;
 }
