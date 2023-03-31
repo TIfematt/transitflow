@@ -1,6 +1,6 @@
 # Introduction
 - TransitFlow is a logistics company: Project was given by NUPAT technologies
-- 
+
 
 ## Index
 
@@ -58,6 +58,9 @@ Add a file structure here with the basic details about files, below is an exampl
 
 - You will find small reusable components like the Navbar and Address bar in the *Components folder*
 - You will find standalone sections/pages (testimonial, header, work, e.t.c) in the *Containers* folder
+
+## Deployment
+- Checkout the desktop version https://64267d179289552ebb0e919a--exquisite-pika-dec64c.netlify.app/
 
 
 ### Contribution
