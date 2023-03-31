@@ -48,7 +48,9 @@ import cSocial from '../assets/contactSocial.png';
 import ClientLogo from '../assets/ClientLogo.png';
 import BlogContent from '../assets/BlogContent.png';
 import FooterImage from '../assets/FooterImage.png';
-import Address from '../assets/Address.png'
+import Address from '../assets/Address.png';
+import BlueBtnHover from '../assets/BlueBtnHover.png'
+import YellowBtnHover from '../assets/YellowBtnHover.png'
 
 const images = {
     quote,
@@ -101,6 +103,8 @@ const images = {
     ClientLogo,
     BlogContent,
     FooterImage,
-    Address
+    Address,
+    BlueBtnHover,
+    YellowBtnHover
 }
 export default images;

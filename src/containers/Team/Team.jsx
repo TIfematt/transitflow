@@ -1,10 +1,12 @@
 import React from 'react'
-import { images } from '../../constants';
 import { BsInstagram, BsFacebook, BsTwitter, BsLinkedin } from 'react-icons/bs';
+
+import { images } from '../../constants';
 import './Team.css';
 
 const Team = () => {
 
+  
   const teamCard = (prop) => {
     return (
       <div className='team-card' style={{
@@ -96,13 +98,13 @@ const Team = () => {
           left: '218px',
           social: (
             <div className='team_social jessica'>
-              <a href='https://www.facebook.com/'>
+              <a href='https://www.twitter.com/'>
                 <BsTwitter className='icons' /> 
               </a>
               <a href='https://www.facebook.com/'>
                 <BsFacebook className='icons' /> 
               </a>
-              <a href='https://www.facebook.com/'>
+              <a href='https://www.instagram.com/'>
                 <BsInstagram className='icons' />
               </a>
             </div>

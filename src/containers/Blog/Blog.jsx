@@ -2,6 +2,7 @@ import React from 'react'
 import './Blog.css';
 import { images } from '../../constants';
 
+// Blog section 
 const Blog = () => {
   return (
     <div className='blog'>

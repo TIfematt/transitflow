@@ -2,6 +2,7 @@ import React from 'react'
 import { images } from '../../constants';
 import './Contact.css';
 
+
 const Contact = () => {
   return (
     <div className='contact'> 
@@ -9,8 +10,10 @@ const Contact = () => {
         <div className='contact-content-text'>
           <p>Contact</p>
           <h1>Get In Touch With Us</h1>
-          <p className='cText'>Leverage agile frameworks to provide a robust synopsis for 
-            strategy foster collaborative thinking to further the overall value.</p>  
+          <p className='cText'>
+            Leverage agile frameworks to provide a robust synopsis for 
+            strategy foster collaborative thinking to further the overall value.
+          </p>  
           <div className='contact-content-media'>
             <img src={images.cSocial} alt='social'/>
           </div>

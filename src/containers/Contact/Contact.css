@@ -125,3 +125,8 @@
     border: none;
     background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
 }
+.contact-form-button button:hover {
+    background: linear-gradient(70.06deg,#FFD7A6 -1.21%, #FFDA56 58.66%, #FFB629 116.84% );
+    transition: 0.5s ease-in-out;
+
+}

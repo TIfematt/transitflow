@@ -1,8 +1,5 @@
 .address_bar {
     display: flex;
-    /* Auto layout */
-
-    display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
@@ -11,10 +8,6 @@
 
     width: 745px;
     height: 68px;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;

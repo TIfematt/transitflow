@@ -232,23 +232,25 @@
 }
 
 .project_btn_box .project_btn {
-    width: 200px;
-    height: 50px;
-    background: #FFFFFF;
+    width: 194px;
+    height: 60px;
     border: none;
     font-family: 'Krub';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 22px;
-    /* identical to box height */
-    color: #1C1F35;
-    /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
     cursor: pointer;
     position: relative;
     top: 75px;
+    color: white;
+    background-image: url('../../assets/pBtnBackground.png');
 
+}
+.project_btn_box .project_btn:hover {
+    background-image: url('../../assets/BlueBtnHover.png');
+    transition: 0.5s ease-in-out
 }

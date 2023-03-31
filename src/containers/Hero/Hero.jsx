@@ -5,7 +5,18 @@ import './Hero.css';
 import Navbar from '../../components/Navbar/Navbar.jsx';
 
 const Hero = () => {
+
+  //Assigned image to a variable
   const background = images.photo
+
+
+  // const onHover = () => {
+  //   return (
+
+  //     this.style.backgroundImage=`url(${images.YellowBtnHover})`
+  //   )
+  // }
+
   return (
       <div className='hero' style={{
         backgroundImage: `url(${background})`,
@@ -14,6 +25,7 @@ const Hero = () => {
         width: '100%',
         height: '100vh'                 
         }}
+
         >
         <Navbar />
         <div className='hero_content'>
@@ -23,17 +35,12 @@ const Hero = () => {
             <br /> in the World
           </h1>
           <p className='sub_title'>In augue ligula, feugiat ut nulla consequat. Ut est lacus, 
-          molestie in arcu no, iaculis vehicula ipsum. Nunc faucibus, nisl id dapibus finibus, 
-          enim diam interdum nulla, sed laoreet risus lectus.</p>    
-          <button className='hero_btn' style={{
-            backgroundImage: `url(${images.btnBkg})`,
-            backgroundRepeat: 'no-repeat',
-            backgroundSize: 'cover',
-            width: '194px',
-            height: '60px',
-            }}
-            >
-            Explore More</button>           
+            molestie in arcu no, iaculis vehicula ipsum. Nunc faucibus, nisl id dapibus finibus, 
+            enim diam interdum nulla, sed laoreet risus lectus.
+          </p>    
+          <button className='hero_btn' style={{ width: '194px', height: '60px'}}>
+            Explore More
+          </button>           
       </div>
     </div>
   )

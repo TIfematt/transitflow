@@ -155,13 +155,7 @@ const Work = () => {
           </div>
         </div>
         <div className='project_btn_box'>
-            <button className='project_btn' style={{
-              backgroundImage: `url(${images.pbtn})`,
-              backgroundRepeat: 'no-repeat',
-              backgroundSize: 'cover',
-              color: 'white',
-            }}
-            >
+            <button className='project_btn'>
               More Work
             </button>
         </div>

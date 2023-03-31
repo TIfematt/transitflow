@@ -61,7 +61,11 @@
     /* identical to box height, or 22px */
     color: #23212A;
     border: none;
+    background-image: url('../../assets/btn_bkg.png');
+
 }
 .hero_btn:hover {
     cursor: pointer;
+    background-image: url('../../assets/YellowBtnHover.png');
+    transition: 0.5s ease-in-out;
 }

@@ -46,7 +46,7 @@
 .blogBtn button {
     width: 200px;
     height: 60px;
-    background: #1C1F35;
+    background-image: url('../../assets/pBtnBackground.png');
     border: none;
     color: white;
     font-family: 'Rubik';
@@ -56,4 +56,10 @@
     line-height: 19px;
     text-align: center;
     cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blogBtn button:hover{
+    background-image: url('../../assets/BlueBtnHover.png');
+    transition: 0.5s ease-in-out
 }

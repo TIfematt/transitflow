@@ -3,10 +3,12 @@ import { BsInstagram, BsFacebook, BsTwitter, BsLinkedin } from 'react-icons/bs';
 
 import './Navbar.css'
 
+// Navbar Component
 const Navbar = () => {
   return (
     <nav className='navbar'>
       <ul className='nav_link'>
+        {/* Navbar link */}
         {['Home', 'About', 'Pages', 'Project', 'Contact'].map((item, index) => (
           <li key={`link-${item}`}> 
             <a href={`#${item}`}>{item}</a>
@@ -16,7 +18,7 @@ const Navbar = () => {
       <div className='nav_social'> 
         {[BsFacebook, BsTwitter, BsLinkedin, BsInstagram].map((Icon, index) => (
           <a key={`social-${index}`} href='https://www.facebook.com/'>
-            <Icon className='icons'/>
+            <Icon className='Nav-social-icons'/>
           </a>
         ))}
       </div>
